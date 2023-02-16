@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+/*separador del menu con el resto de la 
+pagina donde esta el logo y los links*/
+section nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+/*imagen del logo*/
+section nav .logo img{
+    width: 110px;
+    cursor: pointer;
+    margin: 9px 0;
+}
+
+section nav ul{
+    list-style: none;
+}
+/*poner los links del menu en linea*/
+section nav ul li{
+    display: inline-block;
+    margin: 0 17px;
+}
+/*letra de los links del menu*/
+section nav ul li a{
+    font-family: mv boli;
+    text-decoration: none;
+    color:goldenrod;
+    font-weight: 500;
+    font-size: 17px;
+    transition: 0.1s;
+}
+/*linea debajo de los links del menu*/
+section nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #807a6c;
+    display: block;
+    transition: 0.2s linear ;
+}
+/*cambio de color de letra*/
+section nav ul li a:hover::after{
+    width: 100%;
+}
+
+section nav ul li a:hover{
+    color:rgb(156, 115, 10);
+}
+
+/*foticos del carrito, corazon y lupa, tamaño y color*/
+section nav .icon i{
+    font-size: 19px;
+    color: rgb(199, 163, 87);
+    margin: 0 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.icon input{
+    display:inline-table;
+    padding: 6px;
+    border-color: rgb(255, 194, 39);
+    }
+
+    .icon input .placeholder{
+        font-family: mv boli;
+        text-decoration: none;
+        color:goldenrod;
+    }
+/*cambiar color pasando cursos encima de las foticos*/
+section nav .icon i:hover{
+    color:rgb(156, 115, 10);
+}
+
+/*
+section .main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 130px;
+}
+
+section .main .men_text h1{
+    font-size: 46px;
+    position: relative;
+    font-family: mv boli;
+    top: -90px;
+    left: 18px;
+}
+
+section .main .men_text h1 span{
+    margin-left: 18px;
+    color: #fac031;
+    font-family: mv boli;
+    line-height: 22px;
+    font-size: 47px;
+}
+
+section .main .main_image img{
+    width: 700px;
+    position: relative;
+    left: 70px;
+}
+
+section p{
+    width: 650px;
+    text-align: justify;
+    position: right;
+    left: 125px;
+    bottom: 110px;
+    line-height: 22px;
+}
+
+section .main_btn{
+    background: #fac031;
+    position: relative;
+    left: 123px;
+    bottom: 30px;
+    width: 123px;
+    cursor: pointer;
+    padding: 3px 15px;
+}
+
+section .main_btn a{
+    color: #fff;
+    text-align: center;
+    margin-right: 3px;
+    text-decoration: none;
+}
+
+section .main_btn i{
+    color: rgb(54, 53, 53);
+    transition: 0.3s;
+}
+
+section .main_btn:hover i{
+    transform: translateX(7px);
+}*/
+
