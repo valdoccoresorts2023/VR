@@ -1,0 +1,119 @@
+.logo {
+    margin-top: 12px;
+    height: 86px;
+    width: 400px;
+    margin: -12px;
+    border-radius: 21px;
+    cursor: pointer;
+  }
+  .logo:hover {
+    transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+    filter: saturate(600%);
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+  }
+  .header {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 80px;
+    /*background-color: rgb(0, 162, 255);*/
+    display: flex;
+    align-items: center;
+  }
+  
+  .h-1 {
+    width: 50%;
+  }
+  
+  .h-1 p {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .h-2 {
+    width: 65%;
+  }
+  
+  .h-2 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+  }
+  .h-2 ul li {
+    width: 12%;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .h-2 ul li:hover {
+    text-align: center;
+    transition: all cubic-bezier(0.23, 1, 0.32, 1) 0.5s;
+    font-size: 23px;
+    text-decoration:underline;
+    cursor: pointer;
+    background-color: rgba(0, 81, 255, 0.466);
+    padding: 25px;
+    transform: translateY(10px);
+    box-shadow: rgba(127, 127, 128, 0.336) 4px 4px 4px 4px;
+    border-radius: 23px 4px 7px;
+    filter: saturate(350%);
+  }
+  
+  .h-2 ul p {
+    color: white;
+  }
+  
+  .h-2 ul input {
+    width: 50%;
+    border-radius: 20px;
+    height: 10px;
+    padding: 10px;
+    border: 2px solid;
+  }
+  
+  .h-3 {
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .h-3 a img {
+    width: 50%;
+  }
+  .h-3 a img:hover {
+    transition: all ease-in-out 0.5;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #008cff;
+    -webkit-box-shadow: 0px 0px 15px 15px #00b7ff;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+  /*estilo a los li a */
+  li a {
+    color: white;
+  }
+  li a:hover {
+    color: white;
+  }
+  ::-webkit-scrollbar {
+    border-radius: 23%;
+    width: 12px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #008cff;
+    background: rgba(0, 166, 243, 0.788);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
