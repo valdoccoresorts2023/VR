@@ -11,7 +11,7 @@ html{
 
 section{
     width: 100%;
-    height: 100vh;
+    height: 05vh;
 }
 /*separador del menu con el resto de la 
 pagina donde esta el logo y los links*/
@@ -43,10 +43,11 @@ section nav ul li{
 }
 /*letra de los links del menu*/
 section nav ul li a{
-    font-family: mv boli;
+
+    font-family: Arial;
     text-decoration: none;
     color:goldenrod;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 17px;
     transition: 0.1s;
 }
@@ -92,69 +93,66 @@ section nav .icon i:hover{
     color:rgb(156, 115, 10);
 }
 
-/*
-section .main{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+div{
+    height: auto;
+}
+
+.home{
+    min-height: 300vh;
+    padding-top: 12rem;
+    background: url(../img/hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: 1250px;
+    background-position:20px 30px;
+    
+    
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:rgb(27, 20, 20);
     position: relative;
-    top: 130px;
 }
 
-section .main .men_text h1{
-    font-size: 46px;
-    position: relative;
-    font-family: mv boli;
-    top: -90px;
-    left: 18px;
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
 }
 
-section .main .men_text h1 span{
-    margin-left: 18px;
-    color: #fac031;
-    font-family: mv boli;
-    line-height: 22px;
-    font-size: 47px;
+.content h1{
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
 }
 
-section .main .main_image img{
-    width: 700px;
-    position: relative;
-    left: 70px;
-}
-
-section p{
-    width: 650px;
-    text-align: justify;
-    position: right;
-    left: 125px;
-    bottom: 110px;
-    line-height: 22px;
-}
-
-section .main_btn{
-    background: #fac031;
-    position: relative;
-    left: 123px;
-    bottom: 30px;
-    width: 123px;
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: rgba(139, 125, 98, 0.966);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
     cursor: pointer;
-    padding: 3px 15px;
+    transition: .4s ease;
 }
 
-section .main_btn a{
-    color: #fff;
-    text-align: center;
-    margin-right: 3px;
+.content .cn a{
+    font-size: medium;
+    font-family: arial;
     text-decoration: none;
+    color:rgb(236, 236, 236);
+    transition: .3s ease;
 }
 
-section .main_btn i{
-    color: rgb(54, 53, 53);
-    transition: 0.3s;
+.cn:hover{
+background-color: rgb(240, 201, 73);
 }
-
-section .main_btn:hover i{
-    transform: translateX(7px);
-}*/
 
