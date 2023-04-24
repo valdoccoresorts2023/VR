@@ -1,2 +1,2 @@
-# VR
-Valdocco Resorts - Proyecto de Creaj 2023 
+# Blooger_Website
+This is the complete blooger website create using html and css
